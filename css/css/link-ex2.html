@@ -3,9 +3,12 @@
 <head>
     <style>
         /* pseudo class */
+        a { 
+            text-decoration: none;
+        }
         a:link { 
             color: chocolate;
-            /* link = 평소 링크의 색을뜻함 */
+            /* link =방문하기전의 색을뜻함 */
         }
         a:visited {
             color: gold;
@@ -13,6 +16,7 @@
         }
         a:hover {
             color: cyan;
+            text-decoration: underline;
             /* hover = 마우스 올렸을때  */
         }
         a:active {

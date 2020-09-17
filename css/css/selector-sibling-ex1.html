@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .div1+h1 {
+            color: blue;
+            /* +는 형제를 뜻함 , 대신 건너뛸수는없음
+            첫번째div1과 첫번째 h1만 색이변함 첫번째div1의 
+            h1은 자식이므로 색이 변동하지않음
+            두번째dvi1 밑에는 건너뛰기때문에
+            바뀌지않음  */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <h1>Lorem, ipsum dolor.</h1>
+    </div>
+
+    <h1>Lorem, ipsum dolor.</h1>
+
+    <div class="div1">
+        <h1>Lorem, ipsum dolor.</h1>
+    </div>
+
+    <h1>Lorem, ipsum dolor.</h1>
+
+    
+</body>
+</html>
